@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <!-- Meta pour autoriser les caractères accentués -->
+  <meta charset="utf-8"/>
+  <!-- Meta viewport pour le responsive (pour la compatibilité des écrans) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- Lien police  -->
+  <link href="https://fonts.googleapis.com/css?family=Girassol&display=swap" rel="stylesheet"/>
+  <!-- Feuille de style -->
+  <link rel="stylesheet" href="assets/css/style.css"/>
+  <!-- Script fontawesome (icones) -->
+  <script src="https://kit.fontawesome.com/d38cea82af.js" crossorigin="anonymous"></script>
+  <title>Voyage & Co ex4 partie2 javascript</title>
+</head>
+<body>
+  <!-- Header (exercice 1) -->
+  <header>
+    <h1>Voyage & Co</h1>
+  </header>
+  <!-- Barre de navigation (exercice 2) -->
+  <nav>
+    <ul>
+      <!-- Les 4 onglets -->
+      <li><a href="#" title="Lien vers la page d'Accueil">Accueil</a></li>
+      <li><a href="#" title="Lien vers la page les Destinations">Destinations</a></li>
+      <li><a href="#" title="Lien vers la page des Réservations">Réservations</a></li>
+      <li><a href="#" title="Lien vers la page Contact">Contact</a></li>
+      <!-- Le champ de recherche et le bouton -->
+      <li>
+        <form action="#" method="post">
+          <label>
+            <input type="text" name="searchBar" id="searchBar" placeholder="Rechercher..."/>
+          </label>
+          <input type="submit" name="searchButton" id="searchButton" value="Rechercher"/>
+        </form>
+      </li>
+      <!-- Icone menu burger masqué sur grands écrans et visible sur écran de mobile (bonus) -->
+      <li><i class="fas fa-bars" id="iconBurger"></i></li>
+    </ul>
+  </nav>
+  <!-- Présentation (exercice 3) -->
+  <div id="presentation">
+    <h2>Présentation</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+  <!-- Ligne de 3 blocs (exercice 4) -->
+  <div id="blockLine">
+    <div class="block">
+      <img src="assets/img/cuba.jpg" alt="Photo représentant une voiture dans Cuba" title="Photo de Cuba"/>
+      <h3>Titre</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div class="block" id="block2">
+      <img src="assets/img/foret.jpg" alt="Photo représentant une forêt" title="Photo de forêt"/>
+      <h3>Titre</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div class="block">
+      <img src="assets/img/marais.jpg" alt="Photo représentant un marais" title="Marais"/>
+      <h3>Titre</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </div>
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>
